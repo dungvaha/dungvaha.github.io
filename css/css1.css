@@ -1,0 +1,395 @@
+body {
+    background: radial-gradient(circle, aqua, white);
+}
+
+.lich {
+    display: none;
+}
+
+#xemlich {
+    color: red;
+    font-style: oblique;
+    text-align: center;
+    font-size: 250%;
+    display: none;
+}
+
+.info {
+    background-color: #f1a2b0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: relative;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+header > div a {
+    display: none;
+}
+
+header div p {
+    font-size: 110%;
+    color: white;
+    text-align: center;
+
+}
+
+.fa-phone {
+    color: white;
+    display: inline-block;
+    top: 20px;
+    position: absolute;
+    margin-left: 5%;
+}
+
+
+nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    width: 45%;
+    border-right: 3px solid yellow;
+    height: 50px;
+    line-height: 50px;
+    font-size: 140%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+.li1 {
+    display: none;
+}
+
+nav li li {
+    border-right: none;
+}
+
+.img2 {
+    display: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding-left: 15px;
+    transition: .5s background-color;
+}
+
+nav a:hover {
+    background-color: #005f5f;
+}
+
+nav a.active {
+    background-color: #aaa;
+    color: #444;
+    cursor: default;
+}
+
+/* Sub Menus */
+nav li li {
+    font-size: .8em;
+}
+
+nav > ul > li {
+    text-align: center;
+}
+
+nav > ul > li > a {
+    padding-left: 0;
+}
+
+/* Sub Menus */
+nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav li ul li {
+    display: block;
+}
+
+.img1 img {
+    border-radius: 5%;
+    width: 100%;
+    margin: 5% 0 5% 0;
+}
+
+.p1 p {
+    margin: 10% 0 5% 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(to right, #173e74, #dbe2e4);
+    height: 75px;
+    line-height: 75px;
+    position: relative;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 70%;
+}
+
+.container {
+    min-height: 100vh;
+    margin-bottom: 75px;
+}
+
+.container:after {
+    content: "";
+    display: block;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+@media all and (min-width: 900px) {
+    body {
+        background: radial-gradient(circle, aqua, white);
+        /*        background: white;*/
+    }
+
+    #xemlich {
+        color: red;
+        font-style: oblique;
+        text-align: center;
+        font-size: 250%;
+        display: block;
+    }
+
+    .lich {
+        display: block;
+        width: 50%;
+        height: 50vh;
+        margin: 0 auto;
+        margin-top: 20px;
+        /*        float: left;*/
+    }
+
+    .info {
+        background-color: #f1a2b0;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        position: relative;
+        opacity: 0.9;
+        margin-bottom: 20px;
+    }
+
+    header > div a {
+        display: inline-block;
+        margin-left: 200px;
+        text-decoration: none;
+        font-size: 150%;
+    }
+
+    header div p {
+        font-size: 110%;
+        color: white;
+        /*        text-align: center;*/
+        display: inline-block;
+        margin-left: 50px;
+    }
+
+    .fa-phone {
+        color: white;
+        display: inline-block;
+        top: 20px;
+        position: absolute;
+        margin-left: 10px;
+    }
+
+
+    nav ul {
+        list-style: none;
+        background-color: #444;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        width: 15%;
+        border-right: 3px solid yellow;
+        height: 50px;
+        line-height: 50px;
+        font-size: 140%;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .li1 {
+        display: inline-block;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li li {
+        border-right: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        padding-left: 15px;
+        transition: .5s background-color;
+    }
+
+    nav a:hover {
+        background-color: #005f5f;
+    }
+
+    nav a.active {
+        background-color: #aaa;
+        color: #444;
+        cursor: default;
+    }
+
+    /* Sub Menus */
+    nav li li {
+        font-size: .8em;
+    }
+
+    nav > ul > li {
+        text-align: center;
+    }
+
+    nav > ul > li > a {
+        padding-left: 0;
+    }
+
+    /* Sub Menus */
+    nav li ul {
+        position: absolute;
+        display: none;
+        width: inherit;
+    }
+
+    nav li:hover ul {
+        display: block;
+    }
+
+    nav li ul li {
+        display: block;
+    }
+
+    .img1 img {
+        border-radius: 5%;
+        width: 100%;
+        margin: 5% 0 5% 0;
+        display: none;
+    }
+
+    .img2 {
+        display: grid;
+        grid-template-columns: 15vw 15vw 15vw 15vw;
+        grid-template-rows: 46vh 46vh 46vh;
+        grid-gap: 10px;
+        width: 1000px;
+        margin: 0 auto;
+/*        opacity: 0.8;*/
+    }
+
+    .iteam {
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .iteam img {
+        width: 15vw;
+        height: 46vh;
+        border-radius: 10px;
+    }
+
+    .iteam2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .iteam2 img {
+        width: 30vw;
+    }
+
+    .iteam7 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .iteam7 img {
+        width: 30vw;
+    }
+
+    .iteam8 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    .iteam8 img {
+        width: 30vw;
+    }
+
+    .iteam6 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    .iteam6 img {
+        width: 30vw;
+    }
+
+    .p1 p {
+        margin: 10% 0 5% 0;
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 200%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    footer {
+        background: linear-gradient(to right, #173e74, #dbe2e4);
+        height: 75px;
+        line-height: 75px;
+        position: relative;
+    }
+
+    footer p {
+        text-align: center;
+        color: white;
+        font-size: 150%;
+    }
+
+    .container {
+        min-height: 100vh;
+        margin-bottom: 75px;
+    }
+
+    .container:after {
+        content: "";
+        display: block;
+    }
+
+    .more {
+        display: none;
+    }
+}

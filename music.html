@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Loving</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://kit.fontawesome.com/d06cf52ecd.js" crossorigin="anonymous"></script>
+    <script src="js//js1.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css//css1.css">
+    <style>
+        p {
+            font-style: oblique;
+            color: crimson;
+            font-size: 110%;
+        }
+        .thuychi {
+            display: grid;
+            border: 2px solid black;
+            grid-gap: 10px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .tonghop {
+            display: grid;
+            border: 2px solid black;
+            grid-gap: 10px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        h2 {
+            color: green;
+        }
+
+        .item {
+            border: 1px solid black;
+        }
+
+        @media all and (min-width: 900px) {
+            .thuychi {
+                display: grid;
+                border: 2px solid black;
+                grid-template-columns: 340px 340px 340px;
+                grid-template-rows: 320px 320px 320px;
+                grid-gap: 30px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .tonghop {
+                display: grid;
+                border: 2px solid black;
+                grid-template-columns: 340px 340px 340px;
+                grid-template-rows: 320px 320px 320px;
+                grid-gap: 30px;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+
+            img {
+                width: 340px;
+                height: 222px;
+            }
+
+            h1 {
+                color: red;
+            }
+
+            h2 {
+                display: none;
+            }
+
+            .item {
+                border: 1px solid black;
+                text-align: center;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="info">
+                <i class="fas fa-phone "></i>
+                <p>My phone number: 0865390031</p>
+                <a href="https://www.facebook.com/dung.phamchi.121" class="facebook" target="_blank"><i class="fab fa-facebook"></i> My Facebook</a>
+                <a href="https://www.instagram.com/fileworkk/" target="_blank"><i class="fab fa-instagram-square"></i> My Instagram</a>
+            </div>
+
+            <nav class="topnav">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+
+                    <li class="more"><a href="#" onclick="show()">More</a>
+                        <ul id="ul1">
+                            <li><a href="./photos.html">Photos</a></li>
+                            <li><a href="./stories.html">Stories</a></li>
+                            <li><a href="https://www.facebook.com/ThuHa24400" target="_blank">Your FB</a></li>
+                            <li><a href="./music.html">Music</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="li1"><a href="./photos.html">Photos</a></li>
+                    <li class="li1"><a href="./stories.html">Stories</a></li>
+                    <li class="li1"><a href="https://www.facebook.com/ThuHa24400" target="_blank">Your FB</a></li>
+                    <li class="li1"><a href="./music.html">Music</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>Nghe nhạc nào!!!</h1>
+            <div class="thuychi">
+                <h2>Những bài hát hay nhất của Thùy Chi</h2>
+                <div class="item">
+                    <img src="img/gapmetrongmo.jpg" alt="">
+                    <p>Gặp mẹ trong mơ</p>
+                    <audio controls>
+                        <source src="music/GapMeTrongMo-ThuyChi_3k9xw.mp3" type="audio/mpeg">
+                    </audio>
+                    
+                </div>
+                
+                <div class="item">
+                    <img src="img/giacmotrua.jpg" alt="">
+                    <p>Giấc mơ trưa</p>
+                    <audio controls>
+                        <source src="music/GiacMoTrua-ThuyChi_39v3a.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                
+                <div class="item">
+                    <img src="img/giuemdi.jpg" alt="">
+                    <p>Giữ em đi</p>
+                    <audio controls>
+                        <source src="music/GiuEmDi-ThuyChi-3578043.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                
+                <div class="item">
+                    <img src="img/mua.jpg" alt="">
+                    <p>Mưa - Thùy Chi</p>
+                    <audio controls>
+                        <source src="music/Mua-ThuyChiNhomM4U_6myu.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                
+                <div class="item">
+                    <img src="img/phoco.jpg" alt="">
+                    <p>Phố cổ</p>
+                    <audio controls>
+                        <source src="music/PhoCo-ThuyChi-M4U_423uj.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="item">
+                    <img src="img/thanhthi.jpg" alt="">
+                    <p>Thành thị</p>
+                    <audio controls>
+                        <source src="music/ThanhThi-ThuyChi_397tt.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                
+                <div class="item">
+                    <img src="img/xedap.jpg" alt="">
+                    <p>Xe đạp</p>
+                    <audio controls>
+                        <source src="music/XeDap-MinhVuongM4UThuyChi-5706582.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+
+            <div class="tonghop">
+                <h2>Nhạc tổng hợp</h2>
+                <div class="item">
+                    <img src="img/anhoiolai.jpg" alt="">
+                    <p>Anh ơi ở lại</p>
+                    <audio controls>
+                        <source src="music/AnhOiOLai-ChiPuDatG-5947063.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/anhsetotma.jpg" alt="">
+                    <p>Anh sẽ tốt mà</p>
+                    <audio controls>
+                        <source src="music/AnhSeTotMa-PhamHongPhuocThuyChi-4191618.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/buonkhongem.jpg" alt="">
+                    <p>Buồn không em</p>
+                    <audio controls>
+                        <source src="music/BuonKhongEm-DatG-5574133.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/choanhnhe.jpg" alt="">
+                    <p>Chờ anh nhé</p>
+                    <audio controls>
+                        <source src="music/ChoAnhNhe-HoangDungHoangRob-4475500.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/choem.jpg" alt="">
+                    <p>Cho Em</p>
+                    <audio controls>
+                        <source src="music/ChoEm-WanbiTuanAnh_3tz3m.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/cobemuadong.jpg" alt="">
+                    <p>Cô bé mùa đông</p>
+                    <audio controls>
+                        <source src="music/CoBeMuaDong-DangKhoi-ThuyTien_3husq.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/emvanhyvong.jpg" alt="">
+                    <p>Em vẫn hy vọng</p>
+                    <audio controls>
+                        <source src="music/EmVanHyVongPianoVersion-MiuLe-2752963.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/motchutquenanhthoi.jpg" alt="">
+                    <p>Một chút quên anh thôi</p>
+                    <audio controls>
+                        <source src="music/MotChutQuenAnhThoi-BaoThy_3pf4t.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/motdemsay.jpg" alt="">
+                    <p>Một đêm say</p>
+                    <audio controls>
+                        <source src="music/MotDemSay-ThinhSuy-5870466.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/neuvanganh.jpg" alt="">
+                    <p>Nếu vắng anh</p>
+                    <audio controls>
+                        <source src="music/NeuVangAnh-ThuyChi_p7u5.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/thattinh.jpg" alt="">
+                    <p>Thất tình</p>
+                    <audio controls>
+                        <source src="music/ThatTinh-TrinhDinhQuang-3119900.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/tulaunuocmat.jpg" alt="">
+                    <p>Tự lau nước mắt</p>
+                    <audio controls>
+                        <source src="music/TuLauNuocMat-MrSiro-4754186.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/tuyam.jpg" alt="">
+                    <p>Túy âm</p>
+                    <audio controls>
+                        <source src="music/TuyAm-XesiMasewNhatNguyen-5132651.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/viemcochap.jpg" alt="">
+                    <p>Vì em cố chấp</p>
+                    <audio controls>
+                        <source src="music/ViEmCoChap-LuongBichHuu-4660398.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/yeuanh.jpg" alt="">
+                    <p>Yêu anh</p>
+                    <audio controls>
+                        <source src="music/YeuAnh-MiuLe_3wa6m.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="item">
+                    <img src="img/yeumotnguoicole.jpg" alt="">
+                    <p>Yêu một người có lẽ</p>
+                    <audio controls>
+                        <source src="music/YeuMotNguoiCoLe-MiuLeLouHoang-4355705.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>
+                Phạm Chí Dũng - Most of the time, all I need is love you more!
+            </p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
